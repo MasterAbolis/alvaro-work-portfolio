@@ -1,11 +1,10 @@
+import Hero from "./components/Hero.jsx";
 
 function App() {
   return (
-    <>
-        <div className="bg-blue-500 text-white text-xl p-6">
-            Tailwind is working! 🎉
-        </div>
-    </>
+    <div>
+        <Hero />
+    </div>
   )
 }
 
